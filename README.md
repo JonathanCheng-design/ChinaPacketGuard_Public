@@ -1,6 +1,6 @@
 # China Packet Guard
 
-一個原生 Android 範例 app，用 `VpnService` 偵測並阻斷手機上經 Wi-Fi 或行動網路送往中國大陸 IP 網段的封包。
+一個原生 Android app，用 `VpnService` 偵測並阻斷手機上經 Wi-Fi 或行動網路送往中國大陸 IP 網段的封包。
 
 ## 工作方式
 
@@ -17,10 +17,3 @@
 - APNIC 國碼代表 IP 配發地，不等同精準城市定位。若要省市/城市級定位，需要另外授權 GeoIP 資料庫。
 - 內建 seed route 只供第一次啟動測試；正式使用請先按「更新中國大陸 IP 路由表」。
 
-## 建置
-
-用 Android Studio 開啟本資料夾，等待 Gradle 同步後執行 `app`。或在已安裝 JDK、Android SDK 與 Gradle 的環境執行：
-
-```powershell
-gradle :app:assembleDebug
-```
