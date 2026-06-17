@@ -1,6 +1,6 @@
 # China Packet Guard
 
-一個原生 Android app，用 `VpnService` 偵測並阻斷手機上經 Wi-Fi 或行動網路送往中國大陸 IP 網段的封包。
+一個 Android app，用 `VpnService` 偵測並阻斷手機上經 Wi-Fi 或行動網路送往中國大陸 IP 網段的封包。
 
 ## 工作方式
 
